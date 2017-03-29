@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!-- 
+	META TAGS 
+-->
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Mobile First -->
+	<meta name="description" content="Pomodoro timer, a project for the freecodecamp.com front-end web developer course">
+	<meta name="keywords" content="web developer freecodecamp javascript pomodoro">
+	<meta name="author" content="Felipe Marchi">
+		
+	<title>
+
+		Pomodoro Timer
+
+	</title>
+
+<!-- 
+	IMPORTS
+-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- JQueryUI CSS -->
+	<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css" type="text/css">
+
+	<!-- Stylesheet Link -->
+	<link rel="stylesheet" href="stylesheet.css" type="text/css">
+	
+	<!-- Google Fonts -->
+	 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+
+</head>
+
+<body>
+		
+		<div id="app-wrapper" >
+
+			<div id="title"><h1>Pomodoro Timer</h1></div>
+
+			<div id="timer-wrapper">
+
+				<div id="timer-top">
+
+					<div id="leaves">
+						<div id="leaves-img">
+							<img src="imgs/pomodoroTop.png" alt="LEAVES">
+						</div>
+					</div>
+
+					<div id="timer-top-mid">
+						<div id="slider">
+							<img src="imgs/numberline.jpg" alt="CENTER" id="center-img-1" class="numberline">
+							<img src="imgs/numberline.jpg" alt="CENTER" id="center-img-2" class="numberline">
+							<img src="imgs/numberline.jpg" alt="CENTER" id="center-img-3" class="numberline">
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="timer-bottom">
+					<div id="slider-ref">
+						<p>^</p>
+					</div>
+					<div id="time-display">
+						<p>00:00</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- End of app-wrapper -->
+
+</body>
+
+<!--
+ SCRIPTS
+-->
+		
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+	
+	<!-- JQueryUI -->
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	
+	<!-- HowlerJS -->
+	<script src="howlerJS/howler.min.js"></script>
+
+	<!-- Custom Script -->
+	<script src="script.js"></script>
+
+
+</html>

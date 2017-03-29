@@ -1,0 +1,162 @@
+
+html, body {
+
+	background-color: #FFFFFF;
+}
+
+p {
+	margin: 0;
+}
+
+div {
+	/*padding doesn't change width*/
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+	#app-wrapper {
+
+		width: 320px;
+		height: 400px;
+
+		margin: 0 auto;
+		margin-top: 32px;
+		
+	}
+
+		#title {
+
+			text-align: center;
+			color: green;
+			font-family: 'Dancing Script', cursive;
+			font-size: 24px;
+			margin-bottom: 16px;
+		}
+
+		#title h1 {
+			margin: 0;
+		}
+
+	#timer-wrapper {
+		position: relative;
+		height: 240px;
+		width: 288px;
+		margin: 0 auto;
+
+		background-color: transparent;
+		
+	}
+
+		#timer-top {
+
+			position: relative;
+			height: 120px;
+			width: 100%;
+
+			border-top-left: 2px solid #DC1124;
+
+			border-bottom: 4px solid #981113;
+
+			border-top-left-radius: 35% 90%;
+			border-top-right-radius: 35% 90%;
+
+			margin: 0 auto;
+
+			background-color: #C80000;
+
+			overflow: hidden;
+
+		}
+
+		#leaves {
+			position: absolute;
+			height: 250px;
+			width: 250px;
+			z-index: 5;
+			top: -125px;
+			left: 19px;
+			transform: rotateX(75deg);
+
+		}
+
+		#leaves-img {
+			height: 100%;
+			width: 100%;
+			transform: rotateZ(0deg);
+		}
+
+		#leaves-img img{
+			height: 100%;
+			width: 100%;
+		}
+
+			#timer-top-mid {
+
+				width: 720px;
+				left: -360px;
+				bottom: 0;
+				
+				position: absolute;
+				text-align: center;
+				height: 48px;
+
+				background-color: #C80000;
+
+			}
+
+				#slider {
+					position: absolute;
+					bottom: 0;
+					left: 360px;
+					width: 360px;
+					height: 100%;
+				}
+
+
+				.numberline {
+					position: absolute;
+					height: 48px;
+					width: 360px;
+				}
+
+				#center-img-1 {
+					left: 140px;
+				}
+
+				#center-img-2 {
+					left: -220px;
+				}
+
+				#center-img-3 {
+					left: 500px;
+				}
+
+		#timer-bottom {
+			height: 50%;
+			width: 100%;
+
+			border-top: 4px solid #DC1124;
+
+			border-bottom-left-radius: 45% 100%;
+			border-bottom-right-radius: 45% 100%;
+
+
+			background-color: #C80000;
+		}
+
+		#slider-ref {
+			text-align: center;
+			color: white;
+			font-size: 24px;
+		}
+
+		#time-display {
+			width: 100%;
+			margin-top: 10px;
+			text-align: center;
+			font-family: 'Dancing Script', cursive;
+			font-size: 30px;
+			color: white;
+
+		}
